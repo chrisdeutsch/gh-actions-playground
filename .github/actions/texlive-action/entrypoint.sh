@@ -1,2 +1,4 @@
 #!/usr/bin/env bash
-echo "Hello World!"
+pwd
+ls -lah
+exit 1
