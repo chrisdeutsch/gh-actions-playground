@@ -1,0 +1,4 @@
+name: Latex Compile
+runs:
+  using: docker
+  image: Dockerfile

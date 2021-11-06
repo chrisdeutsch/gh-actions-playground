@@ -1,0 +1,8 @@
+name: Latex Compilation
+on: [push]
+jobs:
+  Compile:
+    runs-on: ubuntu-latest
+    steps:
+      - name Compilation Step
+        uses ./.github/actions/texlive-action
