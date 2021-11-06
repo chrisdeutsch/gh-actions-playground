@@ -1,4 +1,2 @@
 #!/usr/bin/env bash
-pwd
-ls -lah
-exit 1
+latexmk -pdf article.tex || exit 1
