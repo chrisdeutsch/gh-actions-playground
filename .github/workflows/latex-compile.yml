@@ -4,5 +4,7 @@ jobs:
   Compile:
     runs-on: ubuntu-latest
     steps:
-      - name: Compilation Step
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Compilation
         uses: ./.github/actions/texlive-action
